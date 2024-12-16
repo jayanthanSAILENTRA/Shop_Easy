@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Your Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #232f3e;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header .search-bar {
+            flex: 1;
+            margin: 0 20px;
+        }
+        header .search-bar input {
+            width: 100%;
+            padding: 8px;
+        }
+        header .cart {
+            font-size: 18px;
+        }
+        nav {
+            background-color: #37475a;
+            padding: 10px 20px;
+            color: white;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            cursor: pointer;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product-card p {
+            color: green;
+            font-weight: bold;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        footer {
+            background-color: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ShopEasy</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+        </div>
+        <div class="cart">🛒 Cart</div>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Categories</li>
+            <li>Deals</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="source/a box of cards for chemistry with additional cards at the side.png" alt="Product 1">
+                <h3>Atomic Warrior</h3>
+                <p>$10.00</p>
+                <button>Add to Cart</button>
+                    </div>
+    </div>
+    <footer>
+        &copy; 2024 ShopEasy - All Rights Reserved
+    </footer>
+</body>
+</html>
